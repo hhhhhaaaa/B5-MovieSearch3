@@ -1,0 +1,20 @@
+{
+  "name": "moviesearchapi",
+  "version": "1.0.0",
+  "description": "Movie search API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon"
+  },
+  "author": "Doug L.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
